@@ -1,0 +1,163 @@
+.header_section {
+  background: url('../assets/headerBack.png') no-repeat scroll 0 0 /
+    cover;
+  height: 900px;
+  margin-top: -30px;
+  .main-part{
+    margin-top:70px;
+    .login-text{
+      color:white
+    }
+    .texture-part{
+      margin-top:180px;
+      color:white;
+      font-family: $Railway;
+      .title{
+        font-size: 80px;
+        color: #30f7fe;
+        font-weight: 700;
+      }
+      .sub-title{
+        font-size: 30px;
+        font-weight: 700;
+        margin-top:-20px;
+      }
+      .desc{
+        font-weight: 300;
+        margin-top: 10px;
+        font-size: 14px;
+      }
+      .contact{
+        font-weight: 300;
+        margin-top: 40px;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .header_section {
+    .main-part{
+      margin-top:70px;
+      .login-section{
+        width:25%;
+      }
+      .texture-part{
+        margin-top:120px;
+        .title{
+          font-size: 65px;
+        }
+        .sub-title{
+          font-size: 28px;
+        }
+        .desc{
+          font-weight: 300;
+          margin-top: 10px;
+          font-size: 14px;
+        }
+      }
+    }
+  } 
+}
+
+@media (max-width: 768px) {
+  .header_section {
+    .main-part{
+      margin-top:70px;
+      .login-section{
+        width:30%;
+      }
+      .texture-part{
+        width:70%;
+        margin-top:60px;
+      }
+      .image-part{
+        margin: auto 0 auto auto;
+        width:350px;
+      }
+    }
+  } 
+}
+
+@media (max-width: 425px) {
+  .header_section {
+    .main-part{
+      margin-top:45px;
+      .logo{
+        width:100px;
+      }
+      .login-section{
+        width:30%;
+        .login-text{
+          display: none;
+        }
+        .magnifier{
+          display: none;
+        }
+      }
+      .texture-part{
+        margin-top:60px;
+        .title{
+          font-size: 40px;
+        }
+        .sub-title{
+          font-size: 22px;
+        }
+      }
+      .image-part{
+        margin: auto 0 auto auto;
+      }
+    }
+  } 
+}
+
+@media (max-width: 375px) {
+  .header_section {
+    .main-part{
+      .texture-part{
+        margin-top:70px;
+        width:90%;
+        .title{
+          font-size: 35px;
+        }
+        .sub-title{
+          font-size: 20px;
+        }
+      }
+      .image-part{
+        margin: auto 0 auto auto;
+        margin-top:80px;
+        width:300px;
+      }
+    }
+  } 
+}
+
+@media (max-width: 320px) {
+  .header_section {
+    height:700px;
+    .main-part{
+      margin-top:50px;
+      .logo{
+        width:80px;
+      }
+      .login-section{
+        width:40%;
+      }
+      .texture-part{
+        margin-top:50px;
+        .title{
+          font-size: 30px;
+        }
+        .sub-title{
+          font-size: 20px;
+        }
+      }
+      .image-part{
+        margin: auto 0 auto auto;
+        width:250px;
+      }
+    }
+  } 
+}

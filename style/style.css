@@ -1,0 +1,321 @@
+.header_section {
+  background: url("../assets/headerBack.png") no-repeat scroll 0 0/cover;
+  height: 900px;
+  margin-top: -30px;
+}
+
+.header_section .main-part {
+  margin-top: 70px;
+}
+
+.header_section .main-part .login-text {
+  color: white;
+}
+
+.header_section .main-part .texture-part {
+  margin-top: 180px;
+  color: white;
+  font-family: "Raleway";
+}
+
+.header_section .main-part .texture-part .title {
+  font-size: 80px;
+  color: #30f7fe;
+  font-weight: 700;
+}
+
+.header_section .main-part .texture-part .sub-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: -20px;
+}
+
+.header_section .main-part .texture-part .desc {
+  font-weight: 300;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.header_section .main-part .texture-part .contact {
+  font-weight: 300;
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+  .header_section .main-part {
+    margin-top: 70px;
+  }
+  .header_section .main-part .login-section {
+    width: 25%;
+  }
+  .header_section .main-part .texture-part {
+    margin-top: 120px;
+  }
+  .header_section .main-part .texture-part .title {
+    font-size: 65px;
+  }
+  .header_section .main-part .texture-part .sub-title {
+    font-size: 28px;
+  }
+  .header_section .main-part .texture-part .desc {
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header_section .main-part {
+    margin-top: 70px;
+  }
+  .header_section .main-part .login-section {
+    width: 30%;
+  }
+  .header_section .main-part .texture-part {
+    width: 70%;
+    margin-top: 60px;
+  }
+  .header_section .main-part .image-part {
+    margin: auto 0 auto auto;
+    width: 350px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header_section .main-part {
+    margin-top: 45px;
+  }
+  .header_section .main-part .logo {
+    width: 100px;
+  }
+  .header_section .main-part .login-section {
+    width: 30%;
+  }
+  .header_section .main-part .login-section .login-text {
+    display: none;
+  }
+  .header_section .main-part .login-section .magnifier {
+    display: none;
+  }
+  .header_section .main-part .texture-part {
+    margin-top: 60px;
+  }
+  .header_section .main-part .texture-part .title {
+    font-size: 40px;
+  }
+  .header_section .main-part .texture-part .sub-title {
+    font-size: 22px;
+  }
+  .header_section .main-part .image-part {
+    margin: auto 0 auto auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .header_section .main-part .texture-part {
+    margin-top: 70px;
+    width: 90%;
+  }
+  .header_section .main-part .texture-part .title {
+    font-size: 35px;
+  }
+  .header_section .main-part .texture-part .sub-title {
+    font-size: 20px;
+  }
+  .header_section .main-part .image-part {
+    margin: auto 0 auto auto;
+    margin-top: 80px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header_section {
+    height: 700px;
+  }
+  .header_section .main-part {
+    margin-top: 50px;
+  }
+  .header_section .main-part .logo {
+    width: 80px;
+  }
+  .header_section .main-part .login-section {
+    width: 40%;
+  }
+  .header_section .main-part .texture-part {
+    margin-top: 50px;
+  }
+  .header_section .main-part .texture-part .title {
+    font-size: 30px;
+  }
+  .header_section .main-part .texture-part .sub-title {
+    font-size: 20px;
+  }
+  .header_section .main-part .image-part {
+    margin: auto 0 auto auto;
+    width: 250px;
+  }
+}
+
+.service_section {
+  font-family: "Raleway";
+}
+
+.service_section .title {
+  font-size: 40px;
+}
+
+.service_section .subtitle {
+  font-family: "Poppins";
+  font-size: 20px;
+}
+
+.service_section .desc {
+  font-family: "Poppins";
+  font-size: 12px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.service_section .btn-read {
+  font-size: 12px;
+  background-color: #582fd7;
+  color: white;
+  font-family: "Raleway";
+}
+
+@media (max-width: 425px) {
+  .service_section .title {
+    margin-left: 110px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .service_section .title {
+    margin-left: 100px;
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 320px) {
+  .service_section .title {
+    margin-left: 80px;
+    font-size: 24px;
+  }
+}
+
+.outstanding .para {
+  font-family: "Raleway";
+}
+
+.outstanding .para .title {
+  font-size: 44px;
+  margin-top: 120px;
+}
+
+.outstanding .para .desc {
+  width: 80%;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+@media (max-width: 1024px) {
+  .outstanding .img-pc {
+    width: 300px;
+    height: 300px;
+  }
+  .outstanding .para {
+    margin-left: 30px;
+  }
+  .outstanding .para .title {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .outstanding .para .desc {
+    width: 100%;
+    font-size: 10px;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 768px) {
+  .outstanding .img-pc {
+    width: 250px;
+    height: 250px;
+  }
+  .outstanding .para {
+    margin-left: 30px;
+  }
+  .outstanding .para .title {
+    font-size: 22px;
+    margin-top: 70px;
+  }
+  .outstanding .para .desc {
+    font-size: 10px;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 425px) {
+  .outstanding .img-pc {
+    margin-left: 100px;
+  }
+  .outstanding .para {
+    margin-left: 70px;
+  }
+  .outstanding .para .title {
+    margin-left: 20px;
+    font-size: 26px;
+    margin-top: 70px;
+  }
+  .outstanding .para .desc {
+    width: 75%;
+    font-size: 10px;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 375px) {
+  .outstanding .img-pc {
+    width: 200px;
+    height: 200px;
+  }
+  .outstanding .para {
+    margin-left: 50px;
+  }
+  .outstanding .para .title {
+    font-size: 22px;
+    margin-top: 50px;
+  }
+  .outstanding .para .desc {
+    width: 75%;
+  }
+}
+
+@media (max-width: 320px) {
+  .outstanding .img-pc {
+    width: 150px;
+    height: 150px;
+  }
+  .outstanding .para {
+    margin-left: 50px;
+  }
+  .outstanding .para .title {
+    font-size: 18px;
+    margin-top: 50px;
+  }
+  .outstanding .para .desc {
+    width: 75%;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=style.css.map */
