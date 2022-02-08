@@ -398,6 +398,55 @@
   color: #572FD7;
 }
 
+.testimonials {
+  padding: 50px 0px;
+  background-color: #FDFEFF;
+  font-family: "Raleway";
+  position: relative;
+}
+
+.testimonials .title {
+  font-size: 40px;
+}
+
+.testimonials .square-block {
+  margin-top: 30px;
+  margin-left: 60px;
+  width: 300px;
+  height: 180px;
+  padding: 20px;
+  box-shadow: 1px 2px 13px -1px rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 1px 2px 13px -1px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 1px 2px 13px -1px rgba(0, 0, 0, 0.07);
+}
+
+.testimonials .square-block .side-desc {
+  text-align: center;
+}
+
+.testimonials .square-block .side-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.testimonials .square-block .side-text .side-title {
+  font-weight: 700;
+}
+
+.testimonials .purple-round {
+  position: absolute;
+  top: 250px;
+  width: 80px;
+  height: 80px;
+  background-color: #572FD7;
+  border-radius: 50%;
+  padding: 20px;
+  overflow: hidden;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

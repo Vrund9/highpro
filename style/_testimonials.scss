@@ -1,0 +1,39 @@
+.testimonials{
+  padding:50px 0px;
+  background-color: #FDFEFF;
+  font-family: $Railway;
+  position: relative;
+  .title{
+    font-size: 40px;
+  }
+  .square-block{
+    margin-top:30px;
+    margin-left:60px;
+    width:300px;
+    height:180px;
+    padding:20px;
+    box-shadow: 1px 2px 13px -1px rgba(0,0,0,0.07);
+    -webkit-box-shadow: 1px 2px 13px -1px rgba(0,0,0,0.07);
+    -moz-box-shadow: 1px 2px 13px -1px rgba(0,0,0,0.07);
+    .side-desc{
+      text-align: center;
+    }
+    .side-text{
+      .side-title{
+        font-weight: 700;
+      }
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  .purple-round{
+    position: absolute;
+    top:250px;
+    width:80px;
+    height:80px;
+    background-color:#572FD7;
+    border-radius: 50%;
+    padding:20px;
+    overflow: hidden;
+  }
+}
