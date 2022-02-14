@@ -1,0 +1,32 @@
+.contact{
+  margin-top:20px;
+  overflow:hidden;
+  display: flex;
+  font-family: $Railway;
+  
+  .left-side{
+    display: flex;
+    .empty{
+      width:30%;
+    }
+    .full {
+      margin-top:20px;
+      font-weight: 300;
+      width: 70%;
+      padding:20px 50px;
+      .btn{
+        padding:7px 25px;
+        margin-top:20px;
+        background-color: white;
+      }
+    }
+    flex: 1;
+    padding:10px;
+    color:white;
+    text-align: left;
+    background-color: #582fd7;
+  }
+  .right-side{
+    flex: 1;
+  }
+}

@@ -1,4 +1,6 @@
+@charset "UTF-8";
 .header_section {
+  overflow-x: hidden;
   background: url("../assets/headerBack.png") no-repeat scroll 0 0/cover;
   height: 900px;
   margin-top: -30px;
@@ -160,6 +162,7 @@
 
 .service_section {
   font-family: "Raleway";
+  overflow: hidden;
 }
 
 .service_section .title {
@@ -204,6 +207,10 @@
     margin-left: 80px;
     font-size: 24px;
   }
+}
+
+.outstanding {
+  overflow-x: hidden;
 }
 
 .outstanding .para {
@@ -359,6 +366,25 @@
   font-family: "Raleway";
 }
 
+.our-team .slider .slick-prev, .our-team .slider .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: 0;
+  background: red;
+  z-index: 10;
+}
+
 .our-team .title {
   font-size: 40px;
   font-weight: 300;
@@ -403,6 +429,7 @@
   background-color: #FDFEFF;
   font-family: "Raleway";
   position: relative;
+  overflow-x: hidden;
 }
 
 .testimonials .title {
@@ -438,7 +465,7 @@
 
 .testimonials .purple-round {
   position: absolute;
-  top: 250px;
+  top: 120px;
   width: 80px;
   height: 80px;
   background-color: #572FD7;
@@ -447,11 +474,100 @@
   overflow: hidden;
 }
 
+.testimonials .slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: -40px;
+  margin-left: 20px;
+  list-style: none;
+  text-align: left;
+}
+
+.testimonials .slick-dots li button:before {
+  font-family: slick;
+  font-size: 20px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: 1;
+  color: #582fd7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.contact {
+  margin-top: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Raleway";
+}
+
+.contact .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  background-color: #582fd7;
+}
+
+.contact .left-side .empty {
+  width: 30%;
+}
+
+.contact .left-side .full {
+  margin-top: 20px;
+  font-weight: 300;
+  width: 70%;
+  padding: 20px 50px;
+}
+
+.contact .left-side .full .btn {
+  padding: 7px 25px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.contact .right-side {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  font-family: "Noto Serif";
+  text-align: left;
+  padding: 40px;
+}
+
+.footer .col1 {
+  border: 1px solid white;
+}
+
+.footer .col1 .title {
+  font-size: 34px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
 }
 /*# sourceMappingURL=style.css.map */

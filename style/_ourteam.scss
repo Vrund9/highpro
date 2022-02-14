@@ -3,6 +3,27 @@
   margin-top:100px;
   padding:50px 0px;
   font-family: $Railway;
+  .slider{
+    .slick-prev, .slick-next{
+      font-size: 0;
+      line-height: 0;
+      position: absolute;
+      top: 50%;
+      display: block;
+      width: 20px;
+      height: 20px;
+      padding: 0;
+      -webkit-transform: translate(0,-50%);
+      -ms-transform: translate(0,-50%);
+      transform: translate(0,-50%);
+      cursor: pointer;
+      color: transparent;
+      border: none;
+      outline: 0;
+      background: red;
+      z-index:10;
+    }
+  }
   .title{
     font-size: 40px;
     font-weight: 300;
